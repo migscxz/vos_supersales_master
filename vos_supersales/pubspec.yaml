@@ -1,0 +1,47 @@
+name: vos_supersales
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.2
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+  permission_handler: ^11.3.1
+  geolocator: ^10.1.0
+  intl: ^0.18.1
+  esc_pos_utils_plus: ^2.0.4
+  blue_thermal_printer: ^1.1.5
+
+  barcode: ^2.2.4
+  barcode_widget: ^2.0.4
+  barcode_image: ^2.0.2
+  image: ^4.5.4 # ✅ upgraded
+  connectivity_plus: ^5.0.2
+
+  # UI
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.2.1
+  flutter_staggered_grid_view: ^0.7.0
+  fl_chart: ^1.0.0
+  animations: ^2.0.11
+  http: 1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/profile.png
